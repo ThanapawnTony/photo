@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <div class="nav-link" id="navLink">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Services</h1>
+        
+</section>
+
+<!-------------course-------------->
+
+<section class="course">
+    <h1>Services We Offer</h1>
+    <p>Capture your love story in pictures that last forever. Here at Tam Photography, our pre-wedding photography packages captivate the spark between you and your beloved in the most enchanting locations. Have a timeless wedding album you can keep for a whole lifetime, and let your precious moments live on for generations to see. </p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Wedding Day
+                <br>$199
+            </h3>
+            <p>8 hours of photography service by 1 professional photographer. 
+
+                <br>All photos will be colour corrected & all softcopy will be returned. 
+                <br>8 hours of videography service by 1 professional videographer. 
+
+                <br>Morning express highlight video.
+                
+                <br>Full day video will be edited & returned.</p>
+        </div>
+        <div class="course-col">
+            <h3>Pre-wedding
+                <br>$299
+            </h3>
+            <p>3 hrs Pre wedding photography service by professional photographer.
+                <br>2 hrs Pre wedding makeup hairdo service by professional makeup artist.
+                <br>1 styling look for bride and groom with free rental of accessories.
+                <br>Free rental of 2 wedding gowns for bride, 1 suit for groom for photoshoot.
+                <br>2 outdoor photoshoot locations.
+                <br>20 specially edited photos.</p>
+        </div>
+        <div class="course-col">
+            <h3>Pre-wedding
+                <br>Full Package
+                <br>$399
+            </h3>
+            <p>1 day of pre wedding photography service by professional photographer.
+                <br>1 day of pre wedding makeup hairdo service by professional makeup artist.
+                <br>4 styling looks for bride and groom with free rental of accessories. 
+                <br>Free rental of 4 wedding gowns for bride, 3 suits for groom for photoshoot.
+                <br>3-4 outdoor photoshoot locations.
+                <br>40 specially edited photos.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!----------------Facilities-->>
+
+<section class="facilities">
+    <h1>More on Pre-wedding Services</h1>
+    <p>Additional info on our services.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="pic/prewed01.jpg">
+            <h3>Traditional Outfits</h3>
+            <p>Laos traditional outfits included each package.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="pic/prewed03.jpg">
+            <h3>Outdoor</h3>
+            <p>pick any loation desire for your day to be remembered.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="pic/film (3).jpg">
+            <h3>Free-Style</h3>
+            <p>Any photoshooting styles, any outfits you desire.</p>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+
+<!---------footer----------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Find out how much more beautiful your special day could be when you are supported by the talented photographers, makeup artists and hairstylists at Tam Photography Pakse, Laos.
+
+        <br>Should you have any queries on our prices and more, please do not hesitate to get in touch with us.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Tam Photography | All Rights Reserved</p>
+</section>
+
+
+
+
+
+
+
+<!---------JS for toggle menu ----------->
+
+<script>
+
+    var navLink = document.getElementById("navLink");
+
+    function showMenu(){
+        navLink.style.right = "0";
+    }
+    function hideMenu(){
+        navLink.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>
